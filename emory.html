@@ -56,18 +56,14 @@
   }
 
   .wrapper {
-  width: 100%;
+  width: 100% !important;
   table-layout: fixed;
-  /* background-color: #8c550c; */
   padding-bottom: 60px;
   }
 
   /* changes affect everything in main {like text-align and text color} */
   .main {
-  width: 100%;
-  /* max-width: 600px; */
   background-color: #f4f4f9;
-  /* font-family: Arial, helvetica, sans-serif !important; */
   color: #040110;
   box-shadow: 0 0 25px rgba(76, 34, 241, 0.7);
   text-align: center;
@@ -77,15 +73,13 @@
   <style>
     /* tablets */
     @media only screen and (max-width: 960px) {
-      .container {
-        width: 600px;
-      }
+    
     }
 
     /* phones */
     @media only screen and (max-width: 600px) {
       .main {
-        width: 100%;
+        width: 100% !important;
       }
 
       .table70 {
@@ -121,14 +115,14 @@
 </head>
 
 <body style="background-color: #e4e4e4;">
-  <table class="wrapper" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <table class="wrapper" width="100%" border="0" cellspacing="0" cellpadding="0"margin="0">
     <tr>
-      <td style="width: 100%;text-align: center;">
+      <td align="center" valign="top">
         <!-- start of container -->
-        <table class="main" width="600" align="center" cellspacing="0" cellpadding="0" border="0" role="presentation" style="background-color: #f4f4f9; padding: 20px 0px 0px 0px; max-width: 600px;">
+        <table class="main" width="600" cellspacing="0" cellpadding="0" border="0" role="presentation">
           <!-- !header -->
           <tr>
-            <td>
+            <td align="center" valign="top">
               <table cellspacing="0" cellpadding="0" border="0" role="presentation" width="100%">
                 <tr>
                   <td style="font-family: 'Montserrat', sans-serif 'Open Sans', sans-serif 'Source Serif Pro', serif;font-size: 13px;padding: 0px 0 10px 0;background-color: #cbcbfb;">
